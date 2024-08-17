@@ -1,14 +1,20 @@
 
 <template>
   <div id="app">
+    <SideBar/>
     <!-- Aquí puedes agregar un encabezado o barra de navegación global -->
     <router-view />
   </div>
 </template>
 
 <script>
+import SideBar from '@/components/SideBar.vue';
+
 export default {
   name: 'App',
+  components: {
+    SideBar
+  }
 };
 </script>
 
