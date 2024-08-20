@@ -33,8 +33,8 @@ export default defineComponent({
 <style scoped>
 .sidebar {
   height: 100vh;
-  width: 60px;
-  background-color: #333;
+  width: 20px;
+  background-color: #505050;
   position: fixed;
   top: 0;
   left: 0;
@@ -55,6 +55,6 @@ export default defineComponent({
 }
 
 .icon {
-  font-size: 24px;
+  font-size: 12px;
 }
 </style>
