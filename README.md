@@ -1,4 +1,5 @@
 # devconnect
+Web page to visualize and manage developer profiles and projects
 
 ## Project setup
 ```
